@@ -17,6 +17,9 @@
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="AslenoLineageStuff" revision="lineage-17.1" />
 
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote ="AslenoLineageStuff" revision="lineage-17.1" />
+    
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="AslenoLineageStuff" revision="lineage-17.1-caf-msm8998" />
 
