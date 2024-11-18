@@ -2,6 +2,9 @@
 <manifest>
 
     <remote name="AslenoLineageStuff" fetch="https://github.com/AslenoLineageStuff" />
+    <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
   <remove-project name="LineageOS/android_build" />
   <project path="build/make" name="android_build" revision="lineage-17.1" remote="AslenoLineageStuff">
