@@ -29,11 +29,16 @@
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="android_system_core" remote="AslenoLineageStuff" revision="lineage-17.1" />
 
-  <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" revision="quartz" />
-
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="AslenoLineageStuff" revision="lineage-17.1" />
 
-  <project path="vendor/lineage-priv/keys" name="keymoment" remote="AslenoLineageStuff" revision="lineage-17.1" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" remote="AslenoLineageStuff" revision="lineage-17.1" />
 
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LineageParts" remote="AslenoLineageStuff" revision="lineage-17.1" />
+
+  <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" revision="quartz" />
+
+  <project path="vendor/lineage-priv/keys" name="keymoment" remote="AslenoLineageStuff" revision="lineage-17.1" />
 </manifest>
